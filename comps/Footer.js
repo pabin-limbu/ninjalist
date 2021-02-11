@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
+    <footer>
       <p>Copyright &copy;2021 Pabin</p>
-    </div>
+    </footer>
   );
 }
 

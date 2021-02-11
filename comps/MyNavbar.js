@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
-function Navbar() {
+function MyNavbar() {
   return (
     <nav>
       <div className="logo">
-        <h1>ninja list</h1>
+        <Image width={128} height={77} src="/logo.png" alt="" />
       </div>
       <Link href="/">
         <a>Home</a>
@@ -20,4 +21,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default MyNavbar;
