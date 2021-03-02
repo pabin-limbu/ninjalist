@@ -12,9 +12,7 @@ export default function Home() {
       <div className={styles.container}>
         <h1 className={styles.title}>Home Page</h1>
         <p className={styles.text}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ut
-          nam animi in ipsa dignissimos dolore explicabo laboriosam non
-          asperiores.
+          this web page is updateing soon..... wait please..
         </p>
         <Link href="/ninjas">
           <a className={styles.btn}>see ninja listing</a>

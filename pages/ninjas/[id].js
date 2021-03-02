@@ -4,6 +4,7 @@ import React from "react";
 import Ninjas from ".";
 
 export const getStaticPaths = async () => {
+    //this function job is to tell next how many static hml page need to be pre rendered
   //since next pre render html at this situation next doesnt know how many page to pre rendered as it depend on the data we fetch
   //all ninjas/id path/ route will have its individual html page.
   //this function will address this problem and tell how many html to pre render at build time.
